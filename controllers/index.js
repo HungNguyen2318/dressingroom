@@ -12,8 +12,8 @@ navPills.forEach((navItem, navIndex) => {
     const tabContainerName = `${tabName}Container`;
     const active = !navIndex ? { tab: " active", tabContainer: " show active" } : { tab: "", tabContainer: "" };
     tabHTML += `
-        <li class="nav-item" role="presentation">
-            <button class="nav-link${active.tab}" id="${tabName}" data-toggle="tab" data-target="#${tabContainerName}" type="button" role="tab"
+        <li class="nav-item flex-fill" role="presentation">
+            <button class="nav-link${active.tab} btn rounded-top " id="${tabName}" data-toggle="tab" data-target="#${tabContainerName}" type="button" role="tab"
             aria-controls="${tabContainerName}" aria-selected="false">${showName}</button>
         </li>
     `;

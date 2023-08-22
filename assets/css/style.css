@@ -143,10 +143,11 @@ hr {
 .nav-pills .nav-item {
   width: 140px;
   text-align: center;
+  margin: 0 5px;
 }
 .nav-pills .nav-item .nav-link {
   border: 1px solid #ccc;
-  border-radius: 0 !important;
+  
 }
 .well {
   background-color: #eff1f1;
